@@ -15,7 +15,8 @@ import java.util.Scanner;
            System.out.print("3. Multiplication\n");
            System.out.print("4. Division\n");
            System.out.print("5. Exit\n\n");
-           System.out.print("Enter Your Choice : ");
+           System.out.print("Enter Your Choice of your number: ");
+	   
            choice = scan.next().charAt(0);
            switch(choice)
             {
